@@ -1,1 +1,1 @@
-# resatraz.github.io
+google.com, pub-4522072061726319, DIRECT, f08c47fec0942fa0

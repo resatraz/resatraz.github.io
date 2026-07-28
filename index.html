@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>İslami Uygulamalar – Nur Serisi</title>
+<meta name="description" content="Nur Ezan Vakti ve Namaz ile Nur Kuran – Türkçe İslami mobil uygulamalar">
+<meta name="google-adsense-account" content="ca-pub-4522072061726319">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --green-dark: #0d2818;
+    --green-mid:  #1a4a2e;
+    --green-card: #1e3a28;
+    --gold:       #c9a84c;
+    --gold-light: #e8c97a;
+    --gold-pale:  #f5e9c8;
+    --text-main:  #f0ead8;
+    --text-muted: #a89d7a;
+    --text-dim:   #6b6048;
+    --radius-card: 16px;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--green-dark);
+    color: var(--text-main);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* ── HEADER ── */
+  header {
+    text-align: center;
+    padding: 72px 24px 56px;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 60% 50% at 50% 0%, rgba(201,168,76,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .bismillah {
+    font-family: 'Amiri', serif;
+    font-size: clamp(28px, 6vw, 48px);
+    color: var(--gold);
+    letter-spacing: 0.02em;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .header-eyebrow {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+  }
+
+  header h1 {
+    font-family: 'Amiri', serif;
+    font-size: clamp(32px, 7vw, 56px);
+    font-weight: 700;
+    color: var(--gold-light);
+    line-height: 1.15;
+    margin-bottom: 16px;
+  }
+
+  header p {
+    font-size: 17px;
+    color: var(--text-muted);
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  /* ── DIVIDER ── */
+  .ornament {
+    text-align: center;
+    color: var(--gold);
+    font-size: 22px;
+    letter-spacing: 8px;
+    opacity: 0.5;
+    margin: 0 0 56px;
+  }
+
+  /* ── CARDS ── */
+  .apps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  .app-card {
+    background: var(--green-card);
+    border: 1px solid rgba(201,168,76,0.2);
+    border-radius: var(--radius-card);
+    padding: 36px 28px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    transition: border-color 0.25s, transform 0.2s;
+  }
+  .app-card:hover {
+    border-color: rgba(201,168,76,0.45);
+    transform: translateY(-3px);
+  }
+
+  .app-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 14px;
+    background: var(--green-mid);
+    border: 1px solid rgba(201,168,76,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
+
+  .app-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 3px 10px;
+    margin-bottom: 12px;
+  }
+  .badge-live {
+    background: rgba(34,197,94,0.15);
+    color: #4ade80;
+    border: 1px solid rgba(34,197,94,0.25);
+  }
+  .badge-soon {
+    background: rgba(201,168,76,0.12);
+    color: var(--gold);
+    border: 1px solid rgba(201,168,76,0.25);
+  }
+  .badge-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+  }
+
+  .app-card h2 {
+    font-family: 'Amiri', serif;
+    font-size: 26px;
+    color: var(--gold-light);
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+
+  .app-card .tagline {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+  }
+
+  .features {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 28px;
+    flex: 1;
+  }
+  .features li {
+    font-size: 14px;
+    color: var(--text-muted);
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .features li::before {
+    content: '✦';
+    color: var(--gold);
+    font-size: 10px;
+    margin-top: 3px;
+    flex-shrink: 0;
+  }
+
+  /* ── BUTTONS ── */
+  .btn-play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 13px 20px;
+    border-radius: 10px;
+    background: var(--gold);
+    color: var(--green-dark);
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+  }
+  .btn-play:hover {
+    background: var(--gold-light);
+    transform: scale(1.02);
+  }
+  .btn-play svg { width: 20px; height: 20px; flex-shrink: 0; }
+
+  .btn-soon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 13px 20px;
+    border-radius: 10px;
+    background: transparent;
+    color: var(--text-dim);
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid rgba(201,168,76,0.2);
+    cursor: default;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    text-align: center;
+    padding: 32px 24px 48px;
+    border-top: 1px solid rgba(201,168,76,0.1);
+  }
+  footer .footer-brand {
+    font-family: 'Amiri', serif;
+    font-size: 20px;
+    color: var(--gold);
+    margin-bottom: 8px;
+  }
+  footer p {
+    font-size: 13px;
+    color: var(--text-dim);
+  }
+  footer a {
+    color: var(--text-muted);
+    text-decoration: none;
+  }
+  footer a:hover { color: var(--gold); }
+
+  @media (max-width: 480px) {
+    header { padding: 52px 20px 40px; }
+    .apps { padding: 0 16px 64px; }
+    .app-card { padding: 28px 20px 22px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <span class="bismillah">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ</span>
+  <p class="header-eyebrow">Mobil İslami Uygulamalar</p>
+  <h1>Nur Serisi</h1>
+  <p>Günlük ibadet ve Kur'an okuma için tasarlanmış iki uygulama</p>
+</header>
+
+<div class="ornament">✦ ✦ ✦</div>
+
+<section class="apps">
+
+  <!-- NUR EZAN -->
+  <div class="app-card">
+    <div class="app-icon">🕌</div>
+    <span class="app-badge badge-live"><span class="badge-dot"></span> Yayında</span>
+    <h2>Nur Ezan Vakti<br>ve Namaz</h2>
+    <p class="tagline">Türkiye geneli namaz vakitleri, ezan bildirimleri ve daha fazlası</p>
+    <ul class="features">
+      <li>Diyanet İşleri Başkanlığı verisiyle doğru vakitler</li>
+      <li>81 il, 973 ilçe desteği</li>
+      <li>Ezan ve vakit bildirimleri</li>
+      <li>İslami radyo ve Kur'an yayınları</li>
+      <li>Dua & zikir bölümü</li>
+      <li>Kıble pusulası</li>
+    </ul>
+    <a class="btn-play" href="https://play.google.com/store/apps/details?id=com.nurnamazprogrami&pcampaignid=web_share" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M3 20.5v-17c0-.83 1.02-1.24 1.6-.66l15 8.5a.75.75 0 010 1.32l-15 8.5C3.02 21.74 3 21.17 3 20.5z"/>
+      </svg>
+      Google Play'den İndir
+    </a>
+  </div>
+
+  <!-- NUR KURAN -->
+  <div class="app-card">
+    <div class="app-icon">📖</div>
+    <span class="app-badge badge-soon">⏳ Yakında</span>
+    <h2>Nur Kuran Kerim</h2>
+    <p class="tagline">Tecvid renkli Mushaf okuma, sesli tilavet ve Türkçe meal</p>
+    <ul class="features">
+      <li>Tecvid renklendirmeli tam Mushaf</li>
+      <li>Türkçe surah isimleri ve mealler</li>
+      <li>Kelime kelime okuma desteği</li>
+      <li>Sesli tilavet ve radyo yayınları</li>
+      <li>Kaldığın yerden devam et</li>
+      <li>Elifba öğrenme modülü</li>
+    </ul>
+    <div class="btn-soon">
+      <span>Yakında Google Play'de</span>
+    </div>
+  </div>
+
+</section>
+
+<footer>
+  <div class="footer-brand">Nur Serisi</div>
+  <p>
+    Geliştirici: <a href="https://github.com/resatraz" target="_blank" rel="noopener">resatraz</a>
+    &nbsp;·&nbsp;
+    <a href="mailto:">İletişim</a>
+  </p>
+</footer>
+
+</body>
+</html>

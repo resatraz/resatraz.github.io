@@ -1,0 +1,224 @@
+{
+  "nav": {
+    "quran": "Kur'an-ı K.",
+    "elifba": "Elifba",
+    "search": "Ara",
+    "bookmarks": "Yer İmleri",
+    "apps": "Uygulamalar",
+    "settings": "Ayarlar"
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "retry": "Tekrar dene",
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "delete": "Sil",
+    "search": "Ara",
+    "close": "Kapat",
+    "ok": "Tamam"
+  },
+  "home": {
+    "title": "Kur'an-ı Kerim",
+    "continueReading": "Kaldığın yerden devam et",
+    "surahList": "Sûreler",
+    "selectSurah": "Sûre Seç"
+  },
+  "surah": {
+    "meccan": "Mekki",
+    "medinan": "Medeni",
+    "verses": "ayet",
+    "bismillah": "Besmele"
+  },
+  "search": {
+    "title": "Ara",
+    "placeholder": "Ayet Veya Sûre Ara",
+    "empty": "Aramak için yazmaya başlayın",
+    "noResults": "Sonuç bulunamadı"
+  },
+  "bookmarks": {
+    "title": "Yer İmleri",
+    "empty": "Henüz yer imi eklemediniz",
+    "addedOn": "Kaydedilme tarihi",
+    "note": "Not"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "reciter": "Hafız",
+    "script": "Yazı Stili",
+    "translation": "Meal",
+    "fontSize": "Yazı Boyutu",
+    "theme": "Tema",
+    "dark": "Koyu",
+    "light": "Açık",
+    "system": "Sistem",
+    "language": "Uygulama Dili",
+    "autoPlay": "Otomatik Sonraki Ayet",
+    "audioQuality": "Ses Kalitesi",
+    "notifications": "Bildirim Ayarı",
+    "dailyVerse": "Günlük Ayet",
+    "clearCache": "Önbelleği Temizle",
+    "appVersion": "Uygulama Versiyonu",
+    "about": "Hakkında",
+    "listView": "Liste Görünümü",
+    "gridView": "Grid Görünümü",
+    "on": "Açık",
+    "off": "Kapalı",
+    "versionInfo": "Versiyon bilgisi",
+    "showMarqueeText": "Kayan Yazı",
+    "scriptLabel": "YAZI",
+    "viewLabel": "GÖRÜNÜM",
+    "reciterLabel": "HAFIZ (KIRAAT)",
+    "translationLabel": "MEAL",
+    "selectSurahLabel": "SÛRE SEÇ",
+    "selectLanguage": "Dil Seç",
+    "turkish": "Türkçe",
+    "english": "English",
+    "arabic": "العربية",
+    "german": "Deutsch"
+  },
+  "player": {
+    "playing": "Çalıyor",
+    "paused": "Duraklatıldı",
+    "buffering": "Yükleniyor"
+  },
+  "tafsir": {
+    "title": "Tefsir",
+    "noTafsir": "Tefsir bulunamadı",
+    "noAyah": "Lütfen önce bir ayet seçin",
+    "description": "Ayetlerin tefsirini okuyun",
+    "error": "Tefsir verisi alınamadı.",
+    "errorMessage": "Tefsir hata"
+  },
+  "about": {
+    "title": "Hakkında",
+    "version": "Versiyon",
+    "developer": "Geliştirici",
+    "feedback": "Uygulama hakkında geri bildirim gönderin",
+    "features": "Farklı meal seçenekleri, hatim takibi, zikirmatik ve diğer özelliklerle",
+    "featureDifferentTranslations": "Farklı meal seçenekleri",
+    "reportBug": "Hata Bildir",
+    "description": "Bu uygulama, Kur'an-ı Kerim'i okumak, dinlemek ve anlamak için tasarlanmıştır. Farklı meal seçenekleri, hatim takibi, zikirmatik ve diğer özelliklerle Kur'an okuma deneyiminizi zenginleştirir.",
+    "featuresTitle": "Özellikler",
+    "featureSurahBased": "Sure bazlı okuma",
+    "featureMushaf": "Muşhaf (sayfa bazlı) okuma",
+    "featureMultipleReciters": "Çoklu hafız seçimi",
+    "featureKhatm": "Hatim takibi",
+    "featureDhikr": "Zikirmatik",
+    "featureWordByWord": "Kelime kelime meal",
+    "featureBookmarks": "Yer İmleri"
+  },
+  "khatm": {
+    "title": "Hatim Takibi",
+    "progress": "İlerleme",
+    "newKhatm": "Yeni Hatim Başlat",
+    "resetKhatm": "Hatmi Sıfırla",
+    "estimatedCompletion": "Tahmini Bitiş",
+    "daysRemaining": "Kalan Gün",
+    "streak": "Üst Üste Gün",
+    "description": "Okuma ilerlemenizi takip edin"
+  },
+  "progress": {
+    "title": "İlerleme",
+    "overall": "Genel İlerleme",
+    "lastRead": "Son Okunan",
+    "surahList": "Sure Listesi"
+  },
+  "share": {
+    "title": "Paylaş",
+    "shareAsImage": "Görsel Olarak Paylaş",
+    "shareAsText": "Metin Olarak Paylaş"
+  },
+  "ayahCard": {
+    "addBookmark": "Yer İmine Ekle",
+    "wordByWord": "Kelime Kelime",
+    "viewTafsir": "Tefsiri Gör",
+    "share": "Paylaş"
+  },
+  "dhikr": {
+    "title": "Zikirmatik",
+    "count": "Sayaç",
+    "target": "Hedef",
+    "reset": "Sıfırla",
+    "setTarget": "Hedef Belirle",
+    "description": "Zikir sayacı kullanın"
+  },
+  "wordByWord": {
+    "title": "Kelime Kelime Meal",
+    "noData": "Veri bulunamadı",
+    "noAyah": "Lütfen önce bir ayet seçin",
+    "words": "Kelimeler",
+    "description": "Ayetleri kelime kelime analiz edin",
+    "surahAyahPicker": "Süre ve Ayet Seç"
+  },
+  "download": {
+    "title": "İndirme",
+    "downloadQuran": "Tüm Kur'an'ı İndir",
+    "downloading": "İndiriliyor...",
+    "completed": "Tamamlandı",
+    "failed": "Başarısız",
+    "storageError": "Yetersiz depolama alanı",
+    "description": "Kur'an'ı çevrimdışı okumak için indirin"
+  },
+  "extras": {
+    "title": "Uygulamalar"
+  },
+  "apps": {
+    "title": "Uygulamalar"
+  },
+  "elifba": {
+    "title": "Elifba",
+    "listen": "Dinle",
+    "ready": "Hazır"
+  },
+  "mushaf": {
+    "title": "Muşhaf",
+    "page": "Sayfa",
+    "jumpToPage": "Sayfaya Git",
+    "previous": "Önceki",
+    "next": "Sonraki"
+  },
+  "radio": {
+    "title": "Radyo",
+    "description": "Kur'an Radyosu"
+  },
+  "reportBug": {
+    "title": "HATA BİLDİRİMİ",
+    "userMessage": "Kullanıcı Mesajı:",
+    "deviceInfo": "Cihaz Bilgileri:",
+    "appVersion": "Uygulama Versiyonu",
+    "buildNumber": "Build Number",
+    "packageName": "Paket Adı",
+    "date": "Tarih",
+    "subject": "Kur'an Uygulaması Hata Bildirimi",
+    "pleaseWriteMessage": "Lütfen bir mesaj yazın",
+    "emailAppFailed": "E-posta uygulaması açılamadı",
+    "unknown": "Bilinmiyor",
+    "description": "Hata bildiriminiz otomatik olarak cihaz ve uygulama bilgileriyle birlikte e-posta olarak gönderilecektir.",
+    "emailAddress": "E-posta Adresi",
+    "emailAddressHint": "E-posta adresi",
+    "yourMessage": "Mesajınız",
+    "yourMessageHint": "Hata detaylarını buraya yazın...",
+    "send": "Gönder",
+    "autoInfo": "Otomatik Eklenecek Bilgiler:",
+    "version": "Versiyon",
+    "build": "Build",
+    "package": "Paket"
+  },
+  "notifications": {
+    "title": "Bildirim Ayarları",
+    "dailyAyah": "Günlük Ayet",
+    "dailyAyahDescription": "Her gün bir ayet bildirimi alın",
+    "readingReminder": "Kur'an Okudun mu?",
+    "readingReminderDescription": "Günlük Kur'an okuma hatırlatması",
+    "batteryOptimization": "Pil Optimizasyonu",
+    "batteryOptimizationOff": "Pil Optimizasyonu Kapalı - Bildirimler düzgün çalışacak",
+    "batteryOptimizationOn": "Pil Optimizasyonu Açık - Bildirimler kesilebilir",
+    "openSettings": "Ayarları Aç",
+    "closeOptimization": "Pil Optimizasyonunu Kapat",
+    "selectTime": "Saat Seç",
+    "cancel": "İptal",
+    "save": "Tamam",
+    "timeSet": "saati olarak ayarlandı"
+  }
+}

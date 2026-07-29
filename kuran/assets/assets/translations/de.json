@@ -1,0 +1,220 @@
+{
+  "nav": {
+    "quran": "Koran",
+    "elifba": "Alphabet",
+    "search": "Suche",
+    "bookmarks": "Lesezeichen",
+    "apps": "Apps",
+    "settings": "Einstellungen"
+  },
+  "common": {
+    "loading": "Wird geladen...",
+    "error": "Ein Fehler ist aufgetreten",
+    "retry": "Erneut versuchen",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "search": "Suchen",
+    "close": "Schließen",
+    "ok": "OK"
+  },
+  "home": {
+    "title": "Der Heilige Quran",
+    "continueReading": "Weiterlesen",
+    "surahList": "Suren",
+    "selectSurah": "Sure auswählen"
+  },
+  "surah": {
+    "meccan": "Mekkanisch",
+    "medinan": "Medinisch",
+    "verses": "Verse",
+    "bismillah": "Bismillah"
+  },
+  "search": {
+    "title": "Suche",
+    "placeholder": "Vers oder Sure suchen",
+    "empty": "Tippen Sie, um zu suchen",
+    "noResults": "Keine Ergebnisse gefunden"
+  },
+  "bookmarks": {
+    "title": "Lesezeichen",
+    "empty": "Sie haben noch keine Lesezeichen hinzugefügt",
+    "addedOn": "Hinzugefügt am",
+    "note": "Notiz"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "reciter": "Hafız",
+    "script": "Schriftstil",
+    "translation": "Übersetzung",
+    "fontSize": "Schriftgröße",
+    "theme": "Design",
+    "dark": "Dunkel",
+    "light": "Hell",
+    "system": "System",
+    "language": "App-Sprache",
+    "autoPlay": "Automatisch nächster Vers",
+    "audioQuality": "Audioqualität",
+    "notifications": "Benachrichtigungseinstellung",
+    "dailyVerse": "Täglicher Vers",
+    "clearCache": "Cache leeren",
+    "appVersion": "App-Version",
+    "about": "Über",
+    "listView": "Listenansicht",
+    "gridView": "Rasteransicht",
+    "on": "Ein",
+    "off": "Aus",
+    "versionInfo": "Versionsinformationen",
+    "showMarqueeText": "Laufender Text",
+    "scriptLabel": "SCHRIFT",
+    "viewLabel": "ANSICHT",
+    "reciterLabel": "REZITATOR",
+    "translationLabel": "ÜBERSETZUNG",
+    "selectSurahLabel": "SURE WÄHLEN",
+    "selectLanguage": "Sprache wählen"
+  },
+  "player": {
+    "playing": "Wird abgespielt",
+    "paused": "Pausiert",
+    "buffering": "Wird geladen"
+  },
+  "tafsir": {
+    "title": "Tafsir",
+    "noTafsir": "Tafsir nicht gefunden",
+    "noAyah": "Bitte wählen Sie zuerst einen Vers",
+    "description": "Versauslegung lesen",
+    "error": "Tafsir-Daten konnten nicht abgerufen werden.",
+    "errorMessage": "Tafsir-Fehler"
+  },
+  "about": {
+    "title": "Über",
+    "version": "Version",
+    "developer": "Entwickler",
+    "feedback": "Feedback zur App senden",
+    "features": "Mit verschiedenen Übersetzungsoptionen, Khatm-Verfolgung, Dhikr-Zähler und mehr Funktionen",
+    "featureDifferentTranslations": "Verschiedene Übersetzungsoptionen",
+    "reportBug": "Fehler melden",
+    "description": "Diese App ist zum Lesen, Hören und Verstehen des Heiligen Qurans konzipiert. Mit verschiedenen Übersetzungsoptionen, Khatm-Verfolgung, Dhikr-Zähler und mehr Funktionen bereichert sie Ihre Quran-Leseerfahrung.",
+    "featuresTitle": "Funktionen",
+    "featureSurahBased": "Surenbasiertes Lesen",
+    "featureMushaf": "Mushaf (seitenbasiertes) Lesen",
+    "featureMultipleReciters": "Mehrere Hafız auswählen",
+    "featureKhatm": "Khatm-Verfolgung",
+    "featureDhikr": "Dhikr-Zähler",
+    "featureWordByWord": "Wort-für-Wort-Übersetzung",
+    "featureBookmarks": "Lesezeichen"
+  },
+  "khatm": {
+    "title": "Khatm-Verfolgung",
+    "progress": "Fortschritt",
+    "newKhatm": "Neuen Khatm starten",
+    "resetKhatm": "Khatm zurücksetzen",
+    "estimatedCompletion": "Geschätztes Ende",
+    "daysRemaining": "Verbleibende Tage",
+    "streak": "Tage in Folge",
+    "description": "Lesefortschritt verfolgen"
+  },
+  "progress": {
+    "title": "Fortschritt",
+    "overall": "Gesamtfortschritt",
+    "lastRead": "Zuletzt gelesen",
+    "surahList": "Sure-Liste"
+  },
+  "share": {
+    "title": "Teilen",
+    "shareAsImage": "Als Bild teilen",
+    "shareAsText": "Als Text teilen"
+  },
+  "ayahCard": {
+    "addBookmark": "Lesezeichen hinzufügen",
+    "wordByWord": "Wort für Wort",
+    "viewTafsir": "Tafsir anzeigen",
+    "share": "Teilen"
+  },
+  "dhikr": {
+    "title": "Dhikr-Zähler",
+    "count": "Zähler",
+    "target": "Ziel",
+    "reset": "Zurücksetzen",
+    "setTarget": "Ziel festlegen",
+    "description": "Dhikr-Zähler verwenden"
+  },
+  "wordByWord": {
+    "title": "Wort-für-Wort-Übersetzung",
+    "noData": "Keine Daten gefunden",
+    "noAyah": "Bitte wählen Sie zuerst einen Vers",
+    "words": "Wörter",
+    "description": "Verse Wort für Wort analysieren",
+    "surahAyahPicker": "Sure und Vers auswählen"
+  },
+  "download": {
+    "title": "Downloads",
+    "downloadQuran": "Gesamten Quran herunterladen",
+    "downloading": "Wird heruntergeladen...",
+    "completed": "Abgeschlossen",
+    "failed": "Fehlgeschlagen",
+    "storageError": "Unzureichender Speicherplatz",
+    "description": "Quran für Offline-Lesen herunterladen"
+  },
+  "extras": {
+    "title": "Anwendungen"
+  },
+  "apps": {
+    "title": "Anwendungen"
+  },
+  "elifba": {
+    "title": "Arabisches Alphabet",
+    "listen": "Zuhören",
+    "ready": "Bereit"
+  },
+  "mushaf": {
+    "title": "Mushaf",
+    "page": "Seite",
+    "jumpToPage": "Zur Seite springen",
+    "previous": "Vorherige",
+    "next": "Nächste"
+  },
+  "radio": {
+    "title": "Radio",
+    "description": "Quran-Radio"
+  },
+  "reportBug": {
+    "title": "FEHLERBERICHT",
+    "userMessage": "Benutzernachricht:",
+    "deviceInfo": "Geräteinformationen:",
+    "appVersion": "App-Version",
+    "buildNumber": "Build-Nummer",
+    "packageName": "Paketname",
+    "date": "Datum",
+    "subject": "Quran-App Fehlerbericht",
+    "pleaseWriteMessage": "Bitte schreiben Sie eine Nachricht",
+    "emailAppFailed": "E-Mail-App konnte nicht geöffnet werden",
+    "unknown": "Unbekannt",
+    "description": "Ihr Fehlerbericht wird automatisch per E-Mail mit Geräte- und App-Informationen gesendet.",
+    "emailAddress": "E-Mail-Adresse",
+    "emailAddressHint": "E-Mail-Adresse",
+    "yourMessage": "Ihre Nachricht",
+    "yourMessageHint": "Fehlerdetails hier schreiben...",
+    "send": "Senden",
+    "autoInfo": "Automatisch hinzugefügte Informationen:",
+    "version": "Version",
+    "build": "Build",
+    "package": "Paket"
+  },
+  "notifications": {
+    "title": "Benachrichtigungseinstellungen",
+    "dailyAyah": "Täglicher Vers",
+    "dailyAyahDescription": "Erhalten Sie eine tägliche Vers-Benachrichtigung",
+    "readingReminder": "Haben Sie den Quran gelesen?",
+    "readingReminderDescription": "Tägliche Quran-Leseerinnerung",
+    "batteryOptimization": "Batterieoptimierung",
+    "batteryOptimizationOff": "Batterieoptimierung Aus - Benachrichtigungen funktionieren ordnungsgemäch",
+    "batteryOptimizationOn": "Batterieoptimierung Ein - Benachrichtigungen können unterbrochen werden",
+    "openSettings": "Einstellungen öffnen",
+    "closeOptimization": "Batterieoptimierung schließen",
+    "selectTime": "Zeit auswählen",
+    "cancel": "Abbrechen",
+    "save": "OK",
+    "timeSet": "Zeit eingestellt"
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "nav": {
+    "quran": "Quran",
+    "elifba": "Alphabet",
+    "search": "Search",
+    "bookmarks": "Bookmarks",
+    "apps": "Apps",
+    "settings": "Settings"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "search": "Search",
+    "close": "Close",
+    "ok": "OK"
+  },
+  "home": {
+    "title": "Holy Quran",
+    "continueReading": "Continue Reading",
+    "surahList": "Surahs",
+    "selectSurah": "Select Surah"
+  },
+  "surah": {
+    "meccan": "Meccan",
+    "medinan": "Medinan",
+    "verses": "verses",
+    "bismillah": "Bismillah"
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Search Ayah or Surah",
+    "empty": "Start typing to search",
+    "noResults": "No results found"
+  },
+  "bookmarks": {
+    "title": "Bookmarks",
+    "empty": "You haven't added any bookmarks yet",
+    "addedOn": "Added on",
+    "note": "Note"
+  },
+  "settings": {
+    "title": "Settings",
+    "reciter": "Hafız",
+    "script": "Script Style",
+    "translation": "Translation",
+    "fontSize": "Font Size",
+    "theme": "Theme",
+    "dark": "Dark",
+    "light": "Light",
+    "system": "System",
+    "language": "App Language",
+    "autoPlay": "Auto Play Next Verse",
+    "audioQuality": "Audio Quality",
+    "notifications": "Notification Setting",
+    "dailyVerse": "Daily Verse",
+    "clearCache": "Clear Cache",
+    "appVersion": "App Version",
+    "about": "About",
+    "listView": "List View",
+    "gridView": "Grid View",
+    "on": "On",
+    "off": "Off",
+    "versionInfo": "Version Info",
+    "showMarqueeText": "Marquee Text",
+    "scriptLabel": "SCRIPT",
+    "viewLabel": "VIEW",
+    "reciterLabel": "RECITER",
+    "translationLabel": "TRANSLATION",
+    "selectSurahLabel": "SELECT SURAH",
+    "selectLanguage": "Select Language"
+  },
+  "player": {
+    "playing": "Playing",
+    "paused": "Paused",
+    "buffering": "Buffering"
+  },
+  "tafsir": {
+    "title": "Tafsir",
+    "noTafsir": "Tafsir not found",
+    "noAyah": "Please select an ayah first",
+    "description": "Read verse exegesis",
+    "error": "Tafsir data could not be retrieved.",
+    "errorMessage": "Tafsir error"
+  },
+  "about": {
+    "title": "About",
+    "version": "Version",
+    "developer": "Developer",
+    "feedback": "Send feedback about the app",
+    "features": "With different translation options, khatm tracking, dhikr counter and more features",
+    "featureDifferentTranslations": "Different translation options",
+    "reportBug": "Report Bug",
+    "description": "This app is designed to read, listen to and understand the Holy Quran. With different translation options, khatm tracking, dhikr counter and more features, it enriches your Quran reading experience.",
+    "featuresTitle": "Features",
+    "featureSurahBased": "Surah-based reading",
+    "featureMushaf": "Mushaf (page-based) reading",
+    "featureMultipleReciters": "Multiple Hafız selection",
+    "featureKhatm": "Khatm tracking",
+    "featureDhikr": "Dhikr counter",
+    "featureWordByWord": "Word by word translation",
+    "featureBookmarks": "Bookmarks"
+  },
+  "khatm": {
+    "title": "Khatm Tracker",
+    "progress": "Progress",
+    "newKhatm": "Start New Khatm",
+    "resetKhatm": "Reset Khatm",
+    "estimatedCompletion": "Estimated Completion",
+    "daysRemaining": "Days Remaining",
+    "streak": "Day Streak",
+    "description": "Track your reading progress"
+  },
+  "progress": {
+    "title": "Progress",
+    "overall": "Overall Progress",
+    "lastRead": "Last Read",
+    "surahList": "Surah List"
+  },
+  "share": {
+    "title": "Share",
+    "shareAsImage": "Share as Image",
+    "shareAsText": "Share as Text"
+  },
+  "ayahCard": {
+    "addBookmark": "Add Bookmark",
+    "wordByWord": "Word by Word",
+    "viewTafsir": "View Tafsir",
+    "share": "Share"
+  },
+  "dhikr": {
+    "title": "Dhikr Counter",
+    "count": "Count",
+    "target": "Target",
+    "reset": "Reset",
+    "setTarget": "Set Target",
+    "description": "Use dhikr counter"
+  },
+  "wordByWord": {
+    "title": "Word by Word Translation",
+    "noData": "No data found",
+    "noAyah": "Please select an ayah first",
+    "words": "Words",
+    "description": "Analyze verses word by word",
+    "surahAyahPicker": "Select Surah and Ayah"
+  },
+  "download": {
+    "title": "Downloads",
+    "downloadQuran": "Download Full Quran",
+    "downloading": "Downloading...",
+    "completed": "Completed",
+    "failed": "Failed",
+    "storageError": "Insufficient storage space",
+    "description": "Download Quran for offline reading"
+  },
+  "extras": {
+    "title": "Apps"
+  },
+  "apps": {
+    "title": "Apps"
+  },
+  "elifba": {
+    "title": "Arabic Alphabet",
+    "listen": "Listen",
+    "ready": "Ready"
+  },
+  "mushaf": {
+    "title": "Mushaf",
+    "page": "Page",
+    "jumpToPage": "Jump to Page",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "radio": {
+    "title": "Radio",
+    "description": "Quran Radio"
+  },
+  "reportBug": {
+    "title": "BUG REPORT",
+    "userMessage": "User Message:",
+    "deviceInfo": "Device Information:",
+    "appVersion": "App Version",
+    "buildNumber": "Build Number",
+    "packageName": "Package Name",
+    "date": "Date",
+    "subject": "Quran App Bug Report",
+    "pleaseWriteMessage": "Please write a message",
+    "emailAppFailed": "Could not open email app",
+    "unknown": "Unknown",
+    "description": "Your bug report will be automatically sent via email with device and app information.",
+    "emailAddress": "Email Address",
+    "emailAddressHint": "Email address",
+    "yourMessage": "Your Message",
+    "yourMessageHint": "Write bug details here...",
+    "send": "Send",
+    "autoInfo": "Automatically Added Information:",
+    "version": "Version",
+    "build": "Build",
+    "package": "Package"
+  },
+  "notifications": {
+    "title": "Notification Settings",
+    "dailyAyah": "Daily Verse",
+    "dailyAyahDescription": "Receive a daily verse notification",
+    "readingReminder": "Did you read Quran?",
+    "readingReminderDescription": "Daily Quran reading reminder",
+    "batteryOptimization": "Battery Optimization",
+    "batteryOptimizationOff": "Battery Optimization Off - Notifications will work properly",
+    "batteryOptimizationOn": "Battery Optimization On - Notifications may be interrupted",
+    "openSettings": "Open Settings",
+    "closeOptimization": "Close Battery Optimization",
+    "selectTime": "Select Time",
+    "cancel": "Cancel",
+    "save": "OK",
+    "timeSet": "time set"
+  }
+}

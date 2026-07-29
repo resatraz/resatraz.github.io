@@ -1,0 +1,220 @@
+{
+  "nav": {
+    "quran": "القرآن",
+    "elifba": "الأبجدية",
+    "search": "بحث",
+    "bookmarks": "العلامات المرجعية",
+    "apps": "التطبيقات",
+    "settings": "الإعدادات"
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ",
+    "retry": "إعادة المحاولة",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "search": "بحث",
+    "close": "إغلاق",
+    "ok": "موافق"
+  },
+  "home": {
+    "title": "القرآن الكريم",
+    "continueReading": "متابعة القراءة",
+    "surahList": "السور",
+    "selectSurah": "اختر السورة"
+  },
+  "surah": {
+    "meccan": "مكية",
+    "medinan": "مدنية",
+    "verses": "آيات",
+    "bismillah": "بسم الله الرحمن الرحيم"
+  },
+  "search": {
+    "title": "بحث",
+    "placeholder": "ابحث عن آية أو سورة",
+    "empty": "ابدأ الكتابة للبحث",
+    "noResults": "لم يتم العثور على نتائج"
+  },
+  "bookmarks": {
+    "title": "العلامات المرجعية",
+    "empty": "لم تضف أي إشارات مرجعية بعد",
+    "addedOn": "تاريخ الإضافة",
+    "note": "ملاحظة"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "reciter": "الحافظ",
+    "script": "نمط الخط",
+    "translation": "الترجمة",
+    "fontSize": "حجم الخط",
+    "theme": "المظهر",
+    "dark": "داكن",
+    "light": "فاتح",
+    "system": "النظام",
+    "language": "لغة التطبيق",
+    "autoPlay": "تشغيل الآية التالية تلقائياً",
+    "audioQuality": "جودة الصوت",
+    "notifications": "إعدادات الإشعارات",
+    "dailyVerse": "آية اليوم",
+    "clearCache": "مسح ذاكرة التخزين المؤقت",
+    "appVersion": "إصدار التطبيق",
+    "about": "حول",
+    "listView": "عرض القائمة",
+    "gridView": "عرض الشبكة",
+    "on": "مفعل",
+    "off": "معطل",
+    "versionInfo": "معلومات الإصدار",
+    "showMarqueeText": "نص متحرك",
+    "scriptLabel": "الخط",
+    "viewLabel": "العرض",
+    "reciterLabel": "القارئ",
+    "translationLabel": "الترجمة",
+    "selectSurahLabel": "اختر السورة",
+    "selectLanguage": "اختر اللغة"
+  },
+  "player": {
+    "playing": "جاري التشغيل",
+    "paused": "متوقف مؤقتاً",
+    "buffering": "جاري التحميل"
+  },
+  "tafsir": {
+    "title": "التفسير",
+    "noTafsir": "التفسير غير موجود",
+    "noAyah": "يرجى اختيار آية أولاً",
+    "description": "قراءة تفسير الآيات",
+    "error": "تعذر استرجاع بيانات التفسير.",
+    "errorMessage": "خطأ في التفسير"
+  },
+  "about": {
+    "title": "حول",
+    "version": "الإصدار",
+    "developer": "المطور",
+    "feedback": "إرسال ملاحظات حول التطبيق",
+    "features": "مع خيارات ترجمة مختلفة، تتبع الختمة، عداد الذكر والمزيد من الميزات",
+    "featureDifferentTranslations": "خيارات ترجمة مختلفة",
+    "reportBug": "الإبلاغ عن خطأ",
+    "description": "هذا التطبيق مصمم لقراءة القرآن الكريم والاستماع إليه وفهمه. مع خيارات ترجمة مختلفة، تتبع الختمة، عداد الذكر والمزيد من الميزات، يثري تجربة قراءة القرآن لديك.",
+    "featuresTitle": "الميزات",
+    "featureSurahBased": "القراءة بناءً على السورة",
+    "featureMushaf": "القراءة بالمصحف (بناءً على الصفحة)",
+    "featureMultipleReciters": "اختيار حفاظ متعددين",
+    "featureKhatm": "تتبع الختمة",
+    "featureDhikr": "عداد الذكر",
+    "featureWordByWord": "ترجمة كلمة بكلمة",
+    "featureBookmarks": "العلامات المرجعية"
+  },
+  "khatm": {
+    "title": "تتبع الختمة",
+    "progress": "التقدم",
+    "newKhatm": "بدء ختمة جديدة",
+    "resetKhatm": "إعادة تعيين الختمة",
+    "estimatedCompletion": "الانتهاء المقدر",
+    "daysRemaining": "الأيام المتبقية",
+    "streak": "أيام متتالية",
+    "description": "تتبع تقدم القراءة"
+  },
+  "progress": {
+    "title": "التقدم",
+    "overall": "التقدم العام",
+    "lastRead": "آخر قراءة",
+    "surahList": "قائمة السور"
+  },
+  "share": {
+    "title": "مشاركة",
+    "shareAsImage": "مشاركة كصورة",
+    "shareAsText": "مشاركة كنص"
+  },
+  "ayahCard": {
+    "addBookmark": "إضافة إشارة",
+    "wordByWord": "كلمة بكلمة",
+    "viewTafsir": "عرض التفسير",
+    "share": "مشاركة"
+  },
+  "dhikr": {
+    "title": "عداد الذكر",
+    "count": "العدد",
+    "target": "الهدف",
+    "reset": "إعادة تعيين",
+    "setTarget": "تحديد الهدف",
+    "description": "استخدام عداد الذكر"
+  },
+  "wordByWord": {
+    "title": "ترجمة كلمة بكلمة",
+    "noData": "لا توجد بيانات",
+    "noAyah": "يرجى اختيار آية أولاً",
+    "words": "الكلمات",
+    "description": "تحليل الآيات كلمة بكلمة",
+    "surahAyahPicker": "اختر السورة والآية"
+  },
+  "download": {
+    "title": "تنزيل",
+    "downloadQuran": "تنزيل القرآن الكامل",
+    "downloading": "جاري التنزيل...",
+    "completed": "مكتمل",
+    "failed": "فشل",
+    "storageError": "مساحة تخزين غير كافية",
+    "description": "تنزيل القرآن للقراءة دون اتصال"
+  },
+  "extras": {
+    "title": "التطبيقات"
+  },
+  "apps": {
+    "title": "التطبيقات"
+  },
+  "elifba": {
+    "title": "الحروف العربية",
+    "listen": "استمع",
+    "ready": "جاهز"
+  },
+  "mushaf": {
+    "title": "المصحف",
+    "page": "صفحة",
+    "jumpToPage": "الذهاب إلى الصفحة",
+    "previous": "السابق",
+    "next": "التالي"
+  },
+  "radio": {
+    "title": "إذاعة",
+    "description": "إذاعة القرآن"
+  },
+  "reportBug": {
+    "title": "تقرير خطأ",
+    "userMessage": "رسالة المستخدم:",
+    "deviceInfo": "معلومات الجهاز:",
+    "appVersion": "إصدار التطبيق",
+    "buildNumber": "رقم البناء",
+    "packageName": "اسم الحزمة",
+    "date": "التاريخ",
+    "subject": "تقرير خطأ تطبيق القرآن",
+    "pleaseWriteMessage": "يرجى كتابة رسالة",
+    "emailAppFailed": "تعذر فتح تطبيق البريد الإلكتروني",
+    "unknown": "غير معروف",
+    "description": "سيتم إرسال تقرير الخطأ الخاص بك تلقائياً عبر البريد الإلكتروني مع معلومات الجهاز والتطبيق.",
+    "emailAddress": "عنوان البريد الإلكتروني",
+    "emailAddressHint": "عنوان البريد الإلكتروني",
+    "yourMessage": "رسالتك",
+    "yourMessageHint": "اكتب تفاصيل الخطأ هنا...",
+    "send": "إرسال",
+    "autoInfo": "المعلومات المضافة تلقائياً:",
+    "version": "الإصدار",
+    "build": "البناء",
+    "package": "الحزمة"
+  },
+  "notifications": {
+    "title": "إعدادات الإشعارات",
+    "dailyAyah": "آية اليوم",
+    "dailyAyahDescription": "استقبل إشعاراً يومياً بآية",
+    "readingReminder": "هل قرأت القرآن؟",
+    "readingReminderDescription": "تذكير يومي بقراءة القرآن",
+    "batteryOptimization": "تحسين البطارية",
+    "batteryOptimizationOff": "تحسين البطارية مغلق - الإشعارات ستعمل بشكل صحيح",
+    "batteryOptimizationOn": "تحسين البطارية مفعل - قد تتوقف الإشعارات",
+    "openSettings": "فتح الإعدادات",
+    "closeOptimization": "إغلاق تحسين البطارية",
+    "selectTime": "اختر الوقت",
+    "cancel": "إلغاء",
+    "save": "موافق",
+    "timeSet": "تم ضبط الوقت"
+  }
+}
